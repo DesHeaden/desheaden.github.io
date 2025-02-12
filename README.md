@@ -5,9 +5,9 @@ This repository will hold my assignments for CTI 110
 
 # About Me
 ## My Interests
-I enjoy playing video games in my free time.
-I am very interested in learning all I can about cybersecurity
-I love working out
+- I enjoy playing video games in my free time.
+- I am very interested in learning all I can about cybersecurity
+- I love working out
 
 ## Websites I Recommend
 [YouTube](www.youtube.com) - Youtube is a great website to watch endless amount of videos, and sometimes movies or shows!
