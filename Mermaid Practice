@@ -1,5 +1,3 @@
-## Mermaid Pratice File
-
 ```mermaid
 graph TD;
     A-->B;
