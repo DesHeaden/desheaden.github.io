@@ -1,0 +1,9 @@
+## Mermaid Pratice File
+
+'''Mermaid
+Graph TD;
+  First-->second
+  Second-->Third
+  Third-->First
+
+'''
