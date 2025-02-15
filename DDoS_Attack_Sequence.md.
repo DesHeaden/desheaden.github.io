@@ -5,3 +5,5 @@ participant BotNet
 participant WebServer
 participant Firewall
 ```
+Attacker->>BotNet: Attack Target WebServer
+BotNet->>+Firewall: Send Excessive Requests
