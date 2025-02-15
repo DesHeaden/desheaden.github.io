@@ -1,11 +1,12 @@
-# DDoS_Attack_Sequence
+# DDoS Attack Sequence
+
 ```mermaid
 sequenceDiagram
-Actor Attacker
-Actor BotNet
-participant WebServer
+actor Attacker
+participant BotNet
+actor Client
 participant Firewall
-```
+participant WebServer
 Attacker->>BotNet: Attack Target WebServer
 BotNet->>+Firewall: Send Excessive Requests
 Firewall->>+WebServer: Forward Requests
