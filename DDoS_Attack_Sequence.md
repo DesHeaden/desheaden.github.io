@@ -23,7 +23,7 @@ participant Firewall
   Client-->>Firewall: Retry Request
   Firewall->>+WebServer: Forward Requests
   WebServer--x-Client: Error Response/Timeout
-  note under WebServer: Crash!
+  note over WebServer: Crash!
   
 ``` 
 ## Explanation of the **DDoS Attack Sequence**
