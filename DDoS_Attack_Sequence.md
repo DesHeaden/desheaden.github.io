@@ -2,8 +2,8 @@
 
 ```mermaid
 sequenceDiagram
-participant Attacker
-participant BotNet
+Actor Attacker
+Actor BotNet
 participant WebServer
 participant Firewall
 ```
