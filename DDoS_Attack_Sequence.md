@@ -7,7 +7,6 @@ Actor BotNet
 participant WebServer
 participant Firewall
 
-```
   Attacker->>BotNet: Attack Target WebServer
   BotNet->>+Firewall: Send Excessive SYN Flood
   Firewall->>+WebServer: Forward Requests
