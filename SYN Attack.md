@@ -28,11 +28,11 @@ participant Firewall
 ``` 
 ## Explanation of the **SYN Attack Entities and Sequence**
 
-Client - The client is the user acessing the web
-Attacker - The malicious attacker is sending SYN Attacks, compromising the server
-WebServer - A software or computer that process network requests from the users
-Firewall - Network security device
-Botnet - Network of compromised devices
+- Client - The client is the user acessing the web
+- Attacker - The malicious attacker is sending SYN Attacks, compromising the server
+- WebServer - A software or computer that process network requests from the users
+- Firewall - Network security device
+- Botnet - Network of compromised devices
 
 1. An attacker sends a large amount of **SYN** requests to a server
 2. The server then receives the requests and sends out out an **SYN-ACK** response
