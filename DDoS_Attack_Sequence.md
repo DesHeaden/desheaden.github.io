@@ -9,7 +9,7 @@ Participant WebServer
 participant Firewall
 
   Attacker->>BotNet: Attack Target WebServer
-  BotNet->>+Firewall: Send Excessive SYN Flood
+  BotNet->>+Firewall: Relays SYN Attack Command
   Firewall->>+WebServer: Forward Requests
   WebServer->>-BotNet: Send SYN-ACK Response
   Client-->>Firewall: Sends Resquest
@@ -24,8 +24,7 @@ participant Firewall
   WebServer--x-Client: Error Response/Timeout
   
 ``` 
-
-## Explanation
+Alt-H2 Explanation
 
 1. An attacker sends a large amount of SYN requests to a server
 2. The server then receives the requests and sends out out an SYN-ACK response
