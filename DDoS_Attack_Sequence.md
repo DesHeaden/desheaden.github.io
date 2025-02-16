@@ -21,5 +21,5 @@ participant Firewall
   Client->>Firewall: Retry Request
   Firewall->>+WebServer: Forward Requests
   WebServer-->>-Client: Error Response/Timeout
-  Deactivate WebServer
+  Deactivate Participant WebServer
 ``` 
