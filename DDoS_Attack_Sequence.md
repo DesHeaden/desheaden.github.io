@@ -8,7 +8,7 @@ Actor Client
 Participant WebServer
 participant Firewall
 
-  Client-->>WebServer; Browsing Web
+  Client-->>WebServer: Browsing Web
   Attacker->>BotNet: Attack Target WebServer
   BotNet->>+Firewall: Relays SYN Attack Command
   Firewall->>+WebServer: Forward Requests
