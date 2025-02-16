@@ -17,8 +17,9 @@ participant Firewall
   WebServer->>-Client: Error Response/Timeout
   Firewall->>Firewall: Analyze Traffic
   BotNet->>+Firewall: Send Excessive SYN Flood
-  Firewall->>-BotNet: Block IP Address
+  Firewall->>-BotNet: Attempt To Block IP Address
   Client->>Firewall: Retry Request
   Firewall->>+WebServer: Forward Requests
-  WebServer-->>-Client: Send Response
+  WebServer-->>-Client: Error Response/Timeout
+  Deactivate WebServer
 ``` 
