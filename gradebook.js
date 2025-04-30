@@ -10,7 +10,7 @@ function fetchGradeData() {
     xhr.onreadystatechange = function(){
         let results;
         // Check if we're done
-        if (xhr.readyState === XMLHttpRequest.DONE){
+        if (xhr.readyState === XMLHttpRequest.DONE) {
             // Check if we're successful
             if (xhr.status !== 200){
                 console.error(`Could not get grades.
@@ -24,8 +24,8 @@ function fetchGradeData() {
         }   catch (e) {
                 console.error("Failed to parse response as JSON:", e);
         }
-  
-    }.bind(this);
+    }
+}.bind(this); //
     xhr.open("get", apiRoute, true);
     xhr.send();
 }
