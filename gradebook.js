@@ -56,3 +56,4 @@ function populateGradebook(data) {
             tableElm.appendChild(row);
         });
 }
+fetchGradeData();
